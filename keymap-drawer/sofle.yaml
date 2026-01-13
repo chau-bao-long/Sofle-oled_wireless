@@ -28,13 +28,13 @@ layers:
   - '|'
   - \
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
+  - {t: ▽, type: trans}
+  - AC SCROLL UP
+  - SCROLL UP
+  - SCROLL DOWN
+  - AC SCROLL DOWN
+  - '-'
+  - _
   - '{'
   - '}'
   - '['
