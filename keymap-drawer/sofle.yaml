@@ -15,54 +15,54 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
+  - TAB
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
   - '-'
-  - _
   - +
   - '='
   - '|'
   - \
-  - {t: ▽, type: trans}
+  - ENTER
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - AC SCROLL UP
   - SCROLL UP
   - SCROLL DOWN
   - AC SCROLL DOWN
+  - {t: ▽, type: trans}
   - '-'
   - _
   - '{'
   - '}'
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - LEFT CONTROL
+  - LEFT ALT
   - {type: held}
+  - LEFT COMMAND
+  - SPACE
+  - SPACE
+  - RIGHT COMMAND
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - RIGHT CONTROL
   raise:
   - BT CLR
   - {t: BT, h: '0'}
