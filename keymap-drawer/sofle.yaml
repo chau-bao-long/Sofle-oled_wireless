@@ -24,8 +24,8 @@ layers:
   - {t: ▽, type: trans}
   - Gui+[
   - Gui+]
-  - +
-  - '='
+  - '|'
+  - \
   - ENTER
   - CAPSLOCK
   - '{'
@@ -36,8 +36,8 @@ layers:
   - {t: ▽, type: trans}
   - '-'
   - _
-  - \
-  - '|'
+  - +
+  - '='
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
@@ -91,8 +91,8 @@ layers:
   - CAPS
   - {t: ▽, type: trans}
   - PAGE UP
-  - AC SCROLL UP
-  - AC SCROLL DOWN
+  - Gui+K
+  - Gui+J
   - PG DN
   - LEFT
   - DOWN
