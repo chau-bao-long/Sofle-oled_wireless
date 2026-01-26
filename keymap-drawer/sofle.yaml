@@ -1,7 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, ENTER, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, '&bl BL_OFF', LCTRL, LALT, LEFT COMMAND, SPACE, lower, raise, RIGHT SHIFT, RIGHT COMMAND, RALT, RCTRL]
+  default:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ENTER
+  - CAPSLOCK
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - PLAY PAUSE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT COMMAND
+  - SPACE
+  - lower
+  - raise
+  - SPACE
+  - RIGHT COMMAND
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -39,7 +98,6 @@ layers:
   - +
   - '='
   - {t: ▽, type: trans}
-  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -52,17 +110,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT SHIFT
-  - LEFT CONTROL
-  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT COMMAND
   - SPACE
   - {type: held}
-  - Gui+D
+  - Gui+Sft+Ctl+S
   - SPACE
   - RIGHT COMMAND
-  - RIGHT ALT
-  - RIGHT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -89,23 +148,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CAPS
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
   - PG UP
+  - PG DN
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - UP ARROW
   - RIGHT
-  - DEL
-  - BSPC
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,16 +165,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT COMMAND
   - SPACE
   - {t: ▽, type: trans}
   - {type: held}
   - SPACE
   - RIGHT COMMAND
-  - RIGHT ALT
-  - RCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
