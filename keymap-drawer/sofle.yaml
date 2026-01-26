@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, ENTER, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LCTRL, LALT, LEFT COMMAND, SPACE, lower, raise, RIGHT SHIFT, RIGHT COMMAND, RALT, RCTRL]
+    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, '&bl BL_OFF', LCTRL, LALT, LEFT COMMAND, SPACE, lower, raise, RIGHT SHIFT, RIGHT COMMAND, RALT, RCTRL]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -58,7 +58,7 @@ layers:
   - LEFT COMMAND
   - SPACE
   - {type: held}
-  - {t: ▽, type: trans}
+  - Gui+D
   - SPACE
   - RIGHT COMMAND
   - RIGHT ALT
@@ -89,11 +89,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CAPS
-  - {t: ▽, type: trans}
-  - PAGE UP
-  - Gui+K
-  - Gui+J
-  - PG DN
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - PG UP
   - LEFT
   - DOWN
   - UP ARROW
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
