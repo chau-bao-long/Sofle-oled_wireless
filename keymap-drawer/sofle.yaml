@@ -57,7 +57,7 @@ layers:
   - SPACE
   - lower
   - raise
-  - SPACE
+  - RIGHT SHIFT
   - RIGHT COMMAND
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
