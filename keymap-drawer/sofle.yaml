@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -98,7 +98,7 @@ layers:
   - +
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,7 +159,7 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
